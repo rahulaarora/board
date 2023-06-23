@@ -1,0 +1,1161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-wrapper-10 {
+  color: #000;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.label {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.submit {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 9px 0;
+}
+
+.span {
+  color: #858585;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+/* dashboard */
+
+.dashboard .overlap {
+  height: 120px;
+  left: 638px;
+  position: absolute;
+  top: 129px;
+  width: 225px;
+}
+
+.dashboard .total-transactions {
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 225px;
+}
+
+.dashboard .overlap-group {
+  background-color: #f4ecdc;
+  border-radius: 20px;
+  height: 120px;
+  position: relative;
+  width: 221px;
+}
+
+.dashboard .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 126px;
+}
+
+.dashboard .text-wrapper-3 {
+  color: #000000;
+  font-family: "Open Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 65px;
+}
+
+.dashboard .img {
+  height: 24px;
+  left: 175px;
+  position: absolute;
+  top: 20px;
+  width: 21px;
+}
+
+.dashboard .total-revenues {
+  height: 120px;
+}
+
+.dashboard .overlap-2 {
+  background-color: #ddefe0;
+  border-radius: 20px;
+  height: 120px;
+  position: relative;
+  width: 221px;
+}
+
+.dashboard .text-wrapper-4 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 124px;
+}
+
+.dashboard .text-wrapper-5 {
+  color: #000000;
+  font-family: "Open Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 124px;
+}
+
+.dashboard .vector {
+  height: 24px;
+  left: 169px;
+  position: absolute;
+  top: 20px;
+  width: 26px;
+}
+
+.dashboard .total-likes {
+  height: 120px;
+  left: 896px;
+  position: absolute;
+  top: 129px;
+  width: 225px;
+}
+
+.dashboard .overlap-3 {
+  background-color: #efdada;
+  border-radius: 20px;
+  height: 120px;
+  position: relative;
+  width: 221px;
+}
+
+.dashboard .text-wrapper-6 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 81px;
+}
+
+.dashboard .text-wrapper-7 {
+  color: #000000;
+  font-family: "Open Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 65px;
+}
+
+.dashboard .vector-2 {
+  height: 24px;
+  left: 172px;
+  position: absolute;
+  top: 20px;
+  width: 23px;
+}
+
+.dashboard .total-users {
+  height: 120px;
+  left: 1159px;
+  position: absolute;
+  top: 129px;
+  width: 225px;
+}
+
+.dashboard .overlap-4 {
+  background-color: #dedfef;
+  border-radius: 20px;
+  height: 120px;
+  position: relative;
+  width: 221px;
+}
+
+.dashboard .vector-3 {
+  height: 24px;
+  left: 159px;
+  position: absolute;
+  top: 20px;
+  width: 37px;
+}
+
+.dashboard .text-wrapper-8 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 85px;
+}
+
+.dashboard .text-wrapper-9 {
+  color: #000000;
+  font-family: "Open Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 44px;
+}
+
+.dashboard .overlap-5 {
+  height: 359px;
+}
+
+.dashboard .activities-card {
+  background-color: white;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.dashboard .overlap-6 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 359px;
+}
+
+.dashboard .text-wrapper-10 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 808px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  width: 42px;
+}
+
+.dashboard .text-wrapper-11 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 906px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  width: 34px;
+}
+
+.dashboard .text-wrapper-12 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 93px;
+}
+
+.dashboard .group {
+  height: 17px;
+  left: 40px;
+  position: absolute;
+  top: 57px;
+  width: 126px;
+}
+
+.dashboard .text-wrapper-13 {
+  color: #848484;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 111px;
+}
+
+.dashboard .vector-4 {
+  height: 5px;
+  left: 116px;
+  position: absolute;
+  top: 8px;
+  width: 8px;
+}
+
+.dashboard .chart {
+  height: 212px;
+  left: 40px;
+  position: absolute;
+  top: 105px;
+  width: 921px;
+}
+
+.dashboard .group-2 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 923px;
+}
+
+.dashboard .text-wrapper-14 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dashboard .line {
+  height: 1px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 881px;
+}
+
+.dashboard .group-3 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 78px;
+  width: 923px;
+}
+
+.dashboard .text-wrapper-15 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dashboard .line-2 {
+  height: 1px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 881px;
+}
+
+.dashboard .group-4 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 923px;
+}
+
+.dashboard .text-wrapper-16 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dashboard .line-3 {
+  height: 1px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 881px;
+}
+
+.dashboard .group-5 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 117px;
+  width: 923px;
+}
+
+.dashboard .text-wrapper-17 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dashboard .line-4 {
+  height: 1px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 881px;
+}
+
+.dashboard .group-6 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 156px;
+  width: 923px;
+}
+
+.dashboard .text-wrapper-18 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dashboard .line-5 {
+  height: 1px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 881px;
+}
+
+.dashboard .group-7 {
+  height: 17px;
+  left: 17px;
+  position: absolute;
+  top: 195px;
+  width: 906px;
+}
+
+.dashboard .text-wrapper-19 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.dashboard .line-6 {
+  height: 1px;
+  left: 23px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 881px;
+}
+
+.dashboard .ellipse {
+  background-color: #e89f9f;
+  border-radius: 5px;
+  height: 10px;
+  left: 788px;
+  position: absolute;
+  top: 54px;
+  width: 10px;
+}
+
+.dashboard .ellipse-2 {
+  background-color: #9bdd7c;
+  border-radius: 5px;
+  height: 10px;
+  left: 885px;
+  position: absolute;
+  top: 54px;
+  width: 10px;
+}
+
+.dashboard .chart-weeks {
+  height: 19px;
+  left: 179px;
+  position: absolute;
+  top: 315px;
+  width: 656px;
+}
+
+.dashboard .text-wrapper-20 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .text-wrapper-21 {
+  color: #848484;
+  font-family: "Open Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 200px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .text-wrapper-22 {
+  color: #848484;
+  font-family: "Open Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 400px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .text-wrapper-23 {
+  color: #848484;
+  font-family: "Open Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 600px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .line-chart {
+  height: 98px;
+
+  width: 881px;
+}
+
+.dashboard .line-chart-2 {
+  height: 135px;
+  left: 79px;
+  position: absolute;
+  top: 134px;
+  width: 880px;
+}
+
+.dashboard .top-products-card {
+  height: 256px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.dashboard .top-products-card .header,
+.activities-card .header {
+  top: 30px;
+  left: 40px;
+  position: absolute;
+  color: #000;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.dashboard .overlap-7 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 256px;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .element {
+  height: 36px;
+  left: 244px;
+  position: absolute;
+  top: 72px;
+  width: 102px;
+}
+
+.dashboard .ellipse-3 {
+  background-color: #97d79e;
+  border-radius: 5.5px;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 11px;
+}
+
+.dashboard .text-wrapper-24 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .text-wrapper-25 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.dashboard .div-wrapper {
+  height: 15px;
+  left: 327px;
+  position: absolute;
+  top: 31px;
+  width: 99px;
+}
+
+.dashboard .text-wrapper-26 {
+  color: #848484;
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.dashboard .vector-5 {
+  height: 5px;
+  left: 429px;
+  position: absolute;
+  top: 37px;
+  width: 8px;
+}
+
+.dashboard .element-2 {
+  height: 36px;
+  left: 244px;
+  position: absolute;
+  top: 129px;
+  width: 172px;
+}
+
+.dashboard .ellipse-4 {
+  background-color: #f6dc7d;
+  border-radius: 5.5px;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 11px;
+}
+
+.dashboard .text-wrapper-27 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .text-wrapper-28 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.dashboard .element-3 {
+  height: 36px;
+  left: 244px;
+  position: absolute;
+  top: 186px;
+  width: 132px;
+}
+
+.dashboard .ellipse-5 {
+  background-color: #ee8383;
+  border-radius: 5.5px;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 11px;
+}
+
+.dashboard .text-wrapper-29 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .text-wrapper-30 {
+  color: #848484;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-31 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+}
+
+.dashboard .pie-chart {
+  height: 134px;
+  left: 60px;
+  position: absolute;
+  top: 82px;
+  width: 134px;
+}
+
+.dashboard .schedules-card {
+  height: 256px;
+}
+
+.dashboard .overlap-8 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  position: relative;
+  width: 100%;
+  height: 256px;
+}
+
+.dashboard .text-wrapper-32 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 30px;
+}
+
+.dashboard .group-8 {
+  height: 66px;
+  left: 40px;
+  position: absolute;
+  top: 77px;
+  width: 300px;
+}
+
+.dashboard .p {
+  color: #666666;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+}
+
+.dashboard .text-wrapper-33 {
+  color: #999999;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-34 {
+  color: #999999;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 44px;
+  white-space: nowrap;
+}
+
+.dashboard .line-7 {
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.dashboard .text-wrapper-35 {
+  color: #848484;
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .vector-6 {
+  height: 8px;
+  width: 5px;
+  position: absolute;
+  right: 25px;
+  top: 32px;
+}
+
+.dashboard .group-9 {
+  height: 66px;
+  left: 40px;
+  position: absolute;
+  top: 156px;
+  width: 300px;
+}
+
+.dashboard .text-wrapper-36 {
+  color: #666666;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+}
+
+.dashboard .text-wrapper-37 {
+  color: #999999;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-38 {
+  color: #999999;
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 44px;
+  white-space: nowrap;
+}
+
+.dashboard .line-8 {
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.dashboard .header {
+  background-color: transparent;
+  height: 30px;
+}
+
+.dashboard .text-wrapper-39 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .search-bar {
+  position: relative;
+  height: 30px;
+  width: 182px;
+}
+
+.dashboard .overlap-9 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  position: relative;
+  width: 180px;
+}
+
+.dashboard .text-wrapper-40 {
+  padding: 6px 15px;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .search-icon {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 9px;
+  top: 4px;
+}
+
+.dashboard .overlap-group-2 {
+  height: 12px;
+  position: relative;
+  width: 13px;
+}
+
+.dashboard .ellipse-6 {
+  border: 1px solid;
+  border-color: #848484;
+  border-radius: 5px;
+  height: 10px;
+  width: 10px;
+}
+
+.dashboard .line-9 {
+  height: 5px;
+  left: 8px;
+  object-fit: cover;
+  width: 5px;
+}
+
+.dashboard .vector-7 {
+  height: 20px;
+  width: 18px;
+}
+
+/* navbar */
+.navigation {
+  background-color: #000000;
+  border-radius: 30px;
+  z-index: 100;
+  min-width: 280px;
+  padding: 60px 50px;
+  width: 100%;
+}
+
+.navigation .help {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .contact-us {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .settings {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .users {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .schedules {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .transactions {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navigation .transaction-icon {
+  height: 21px;
+  width: 18px;
+}
+
+.navigation .schedule-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.navigation .dashboard-icon {
+  height: 18px;
+
+  width: 18px;
+}
+
+.navigation .setting-icon {
+  height: 18px;
+  width: 17px;
+}
+
+.navigation .user-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.navigation .board {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+/* //user  */
+
+.mask-group {
+  height: 30px;
+  width: 30px;
+}
