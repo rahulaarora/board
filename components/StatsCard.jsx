@@ -1,13 +1,24 @@
-const StatsCard = () => {
+const StatsCard = (props) => {
+
+    let color = props.color
+
+    if(color === undefined) color = "blue"
+
+    if(color == "green") color = "bg-[#DDEFE0]"
+    if(color == "peach") color = "bg-[#F4ECDD]"
+    if(color == "pink") color = "bg-[#EFDADA]"
+    if(color == "purple") color = "bg-[#DEE0EF]"
+
+    const icon = props.icon
     return (
         <div className="total-revenues">
-            <div className="overlap-2">
-                <div className="text-wrapper-4">Total Revenues</div>
-                <div className="text-wrapper-5">$2,129,430</div>
+            <div className={`overlap-2 ${color}`}>
+                <div className="text-wrapper-4">{props.heading}</div>
+                <div className="text-wrapper-5">{props.stat}</div>
                 <img
                     className="vector"
                     alt="Vector"
-                    src="https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/vector-6.svg"
+                    src={icon}
                 />
             </div>
         </div>

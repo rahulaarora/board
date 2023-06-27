@@ -8,6 +8,37 @@ import PieGraph from "./Charts/Pie";
 const Board = forwardRef((props, ref) => {
     const { data: session, status } = useSession();
 
+    const cardData = [
+        {
+            color: "green",
+            icon: "https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/vector-6.svg",
+            heading: "Total Revenues",
+            stat: "$2,129,430"
+        },
+        {
+            color: "peach",
+            icon: "https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/total-transactions-icon@2x.png",
+            heading: "Total Transactions",
+            stat: "1,520"
+        },
+        {
+            color: "pink",
+            icon: "https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/vector-5.svg",
+            heading: "Total Likes",
+            stat: "9,721"
+        },
+        {
+            color: "purple",
+            icon: "https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/vector-4.svg",
+            heading: "Total Users",
+            stat: "892"
+        },
+    ]
+
+
+
+
+
     return (
         <>
             <section className="xl:ml-[60px] dashboard w-full mt-5" ref={ref}>
@@ -52,51 +83,20 @@ const Board = forwardRef((props, ref) => {
                     </header>
 
                     <section className="flex justify-center flex-wrap xl:flex-nowrap gap-4 xl:gap-9 mt-[40px]">
-                        <StatsCard />
-                        <StatsCard />
-                        <StatsCard />
-                        <StatsCard />
+                        {
+                            cardData.map((card, index) => {
+                                return (
+                                    <StatsCard key={index} color={card.color} icon={card.icon} heading={card.heading} stat = {card.stat}/>
+                                )
+                            }
+                            )
+                        }
                     </section>
-                    {/* <div className="overlap">
-                        <div className="total-transactions">
-                            <div className="overlap-group">
-                                <div className="text-wrapper-2">Total Transactions</div>
-                                <div className="text-wrapper-3">1,520</div>
-                            </div>
-                        </div>
-                        <img
-                            className="img"
-                            alt="Total transactions"
-                            src="https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/total-transactions-icon@2x.png"
-                        />
-                    </div>
-                    <div className="total-likes">
-                        <div className="overlap-3">
-                            <div className="text-wrapper-6">Total Likes</div>
-                            <div className="text-wrapper-7">9,721</div>
-                            <img
-                                className="vector-2"
-                                alt="Vector"
-                                src="https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/vector-5.svg"
-                            />
-                        </div>
-                    </div>
-                    <div className="total-users">
-                        <div className="overlap-4">
-                            <img
-                                className="vector-3"
-                                alt="Vector"
-                                src="https://generation-sessions.s3.amazonaws.com/82572d8b3b29bc23d59cdbc1d68818c8/img/vector-4.svg"
-                            />
-                            <div className="text-wrapper-8">Total Users</div>
-                            <div className="text-wrapper-9">892</div>
-                        </div>
-                    </div> */}
 
                     {/* graphs */}
                     <section className="mt-[40px]">
                         <div className="activities-card pt-20 p-5 pl-0 xl:pl-5 relative">
-                        <div className="header">Activities</div>
+                            <div className="header">Activities</div>
                             <div className="">
                                 <div className="text-wrapper-35 absolute top-[60px] left-10">May - June 2021</div>
                                 <img
@@ -107,7 +107,7 @@ const Board = forwardRef((props, ref) => {
                                     height={10}
                                 />
                             </div>
-                            <LineGraph data={props.data}/>
+                            <LineGraph data={props.data} />
                         </div>
                     </section>
 
@@ -125,7 +125,7 @@ const Board = forwardRef((props, ref) => {
                                     height={10}
                                 />
                             </div>
-                            <PieGraph data={props.data}/>
+                            <PieGraph data={props.data} />
                         </div>
                         <div className="schedules-card w-full xl:w-[50%]">
                             <div className="overlap-8 flex justify-between">
