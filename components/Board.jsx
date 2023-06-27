@@ -113,7 +113,7 @@ const Board = forwardRef((props, ref) => {
 
 
                     <section className="flex flex-col items-center lg:flex-row gap-10 mt-10">
-                        <div className="top-products-card p-10 pt-15 pb-2 w-full xl:w-[50%] relative">
+                        <div className="top-products-card h-[325px] lg:h-[256px] p-10 pt-15 pb-2 w-full xl:w-[50%] relative">
                             <div className="header">Top Products</div>
                             <div className="">
                                 <div className="text-wrapper-35 absolute top-10 right-10">May - June 2021</div>

@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 const PieGraph = (props) => {
@@ -6,6 +6,13 @@ const PieGraph = (props) => {
     // const data = [{ name: 'Page A', uv: 1, pv: 50 },
     // { name: 'Page A', uv: 2, pv: 20 },
     // { name: 'Page A', uv: 3, pv: 30, }];
+
+    const [width, setWidth] = useState(1280);
+
+    useEffect(() => {
+        setWidth(window.innerWidth);
+    }, [])
+    
 
     return (
         <ResponsiveContainer width="100%" height="100%">
@@ -27,9 +34,9 @@ const PieGraph = (props) => {
                 </Pie>
                 <Tooltip />
                 <Legend
-                    align='right'
-                    verticalAlign="middle"
-                    layout='vertical'
+                    align={width > 768 ? 'right' : 'center'}
+                    verticalAlign={width > 768 ? 'middle' : 'bottom'}
+                    layout={width > 768 ? 'vertical' : 'horizontal'}
                     iconType='circle'
                     iconSize={10}
                 />
